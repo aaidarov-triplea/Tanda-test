@@ -1,0 +1,39 @@
+.nav__allCategory {
+    display: flex;
+    align-items: center;
+}
+
+.burger {
+    margin-top: 23px;
+    margin-right: 8px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    margin-top: 23px;
+}
+
+.nav li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.nav li:first-child {
+    margin-left: -40px;
+}
+
+.nav li a {
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .burger {
+        display: none;
+    }
+}
+

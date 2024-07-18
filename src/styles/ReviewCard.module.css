@@ -1,0 +1,60 @@
+.card {
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    padding: 24px 18px 16px 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__details {
+    display: flex;
+    gap: 16px;
+}
+
+.avatar {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+
+.userName {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.user__addDate {
+    color: #6e6b6b;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.comments {
+    height: 114px;
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #181818;
+}
+
+.feedback {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.feedback a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6e6b6b;
+    text-decoration: underline;
+}
