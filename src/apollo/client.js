@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 const client = new ApolloClient({
-    uri: 'https://api.uno.kg/graphql/',
-    cache: new InMemoryCache(),
-  });
+  uri: "https://api.tanda.kg/graphql/",
+  cache: new InMemoryCache(),
+});
 
-  export default client
+export default client;
